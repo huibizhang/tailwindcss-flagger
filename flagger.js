@@ -15,10 +15,10 @@ const flagger = plugin(
       prevarient.forEach((variant) => {
         addVariant(`flag-${key}-${variant}`, ({ modifySelectors, separator }) => {
           modifySelectors(({ className }) => {
-            return `
-              .flag-${key}:${variant} ~ .${e(`flag-${key}-${variant}${separator}${className}`)},
-              .flag-${key}:${variant} ~ * .${e(`flag-${key}-${variant}${separator}${className}`)}
-            `
+            return (
+              `.flag-${key}:${variant} ~ .${e(`flag-${key}-${variant}${separator}${className}`)},\n` +
+              `.flag-${key}:${variant} ~ * .${e(`flag-${key}-${variant}${separator}${className}`)}`
+            )
           })
         })
       })
