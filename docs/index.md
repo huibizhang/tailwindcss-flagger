@@ -100,6 +100,11 @@ But, if `peer-{action}` variant and `peer` not borther or not behind the `peer`,
 </template>
 </ExampleCode>
 
+So, Flagger resolved this problem. Let we see the document.
+
+# Flagger
+... something here ...
+
 <div class="w-full text-center mt-8 py-10 bg-gray-300 rounded-t-xl">
   <ThirdCutSwitch 
     name="example1"

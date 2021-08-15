@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-gray-300 rounded-md overflow-hidden">
+  <div class="w-full bg-gray-200 rounded-md overflow-hidden">
     <div class="w-full text-center p-10">
       <slot name="example" />
     </div>
