@@ -1,12 +1,32 @@
 {
   "name": "tailwindcss-flagger",
+  "description": "advanced peer variant",
   "version": "0.1.0",
   "main": "flagger.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "files": [
+    "flagger.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huibizhang/tailwindcss-flagger.git"
+  },
+  "homepage": "https://tailwindcss-flagger.vercel.app/",
+  "keywords": [
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "huibizhang",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vitawind": "^1.2.8"
   },
   "devDependencies": {
     "vitepress": "^0.16.1"
@@ -16,8 +36,5 @@
       "tailwindcss": {},
       "autoprefixer": {}
     }
-  },
-  "dependencies": {
-    "vitawind": "^1.2.8"
   }
 }
