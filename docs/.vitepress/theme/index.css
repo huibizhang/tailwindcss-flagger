@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+hr {
+  @apply border-0 bg-gray-200 h-0.5 mt-5
+}
+
+h1,h2 {
+  @apply font-mono;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-flagger",
+  "version": "0.1.0",
+  "main": "flagger.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.16.1"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
+  "dependencies": {
+    "vitawind": "^1.2.8"
+  }
+}
