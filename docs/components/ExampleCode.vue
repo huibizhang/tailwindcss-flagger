@@ -1,6 +1,6 @@
 <template>
   <div class="w-full bg-gray-200 rounded-md overflow-hidden">
-    <div class="w-full text-center p-10">
+    <div class="w-full text-center px-10 py-7">
       <slot name="example" />
     </div>
     <div class="-my-4">
