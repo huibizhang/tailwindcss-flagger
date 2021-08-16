@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-flagger",
+  "name": "tailwind-flagger",
   "description": "advanced peer variant",
   "version": "0.1.0",
   "main": "flagger.js",
