@@ -24,10 +24,16 @@
       </div>
       
       <!-- Windows -->
-      <div class="w-full h-96 ring-[1px] ring-gray-300">
-        <iframe class="w-full h-full hidden flag-1-checked:block border-0" src="https://tailwindcss.com"></iframe>
-        <iframe class="w-full h-full hidden flag-2-checked:block border-0" src="https://vitawind-blog.vercel.app"></iframe>
-        <iframe class="w-full h-full hidden flag-3-checked:block border-0" srcdoc="<h1>This is new page.</h1>"></iframe>
+      <div class="w-full h-40 ring-[1px] ring-gray-300">
+        <div class="w-full h-full hidden flag-1-checked:block border-0 p-5 text-xl font-bold">
+          Tailwind CSS !
+        </div>
+        <div class="w-full h-full hidden flag-2-checked:block border-0 p-5 text-xl font-bold">
+          Vitawind !
+        </div>
+        <div class="w-full h-full hidden flag-3-checked:block border-0 p-5 text-xl font-bold">
+          This is a new page.
+        </div>
       </div>
     </div>
   </div>
