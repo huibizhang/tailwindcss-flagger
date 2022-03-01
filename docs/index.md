@@ -114,15 +114,15 @@ The situation of [example2 in `peer` section](#peer-example2), change to use `fl
 <ExampleCode id="flagger-example1">
 <template v-slot:example>
   <div class="flex justify-between items-center">
-    <div class="p-3">
+    <div class="pair-1-hover:bg-red-300 p-3">
       I have<br><code>peer-hover:</code>
     </div>
-    <div class="bg-green-400 hover:bg-green-300 p-3 rounded-md flag-1 transition-all">
+    <div class="bg-green-400 hover:bg-green-300 p-3 rounded-md pair-1 transition-all">
       I have <code>peer</code><br>
       hover me !
     </div>
     <div>
-      <div class="p-3 flag-1-hover:bg-blue-300 rounded-md transition-all">
+      <div class="p-3 pair-1-hover:bg-blue-300 rounded-md transition-all">
         I have<br><code>peer-hover:</code><br>
         too
       </div>
@@ -133,18 +133,18 @@ The situation of [example2 in `peer` section](#peer-example2), change to use `fl
 
 ```html
 <!-- no effact, because not behind `peer` -->
-<div class="flag-1-hover:bg-red-300 ...">
+<div class="pair-1-hover:bg-red-300 ...">
   I have `peer-hover:`
 </div>
 
-<div class="flag-1 ...">
+<div class="pair-1 ...">
   I have `peer`<br>
   hover me !
 </div>
 
 <div>
   <!-- behind `peer`, but not borther -->
-  <div class="flag-1-hover:bg-blue-300 ...">
+  <div class="pair-1-hover:bg-blue-300 ...">
     I have `peer-hover:` too
   </div>
 </div>
@@ -183,11 +183,11 @@ after installed, import to your `tailwind.config.js`:
 ```
 
 ## Usage
-
+WIP
 
 
 ## Costumizing
-
+WIP
 
 <!-- <div class="w-full text-center mt-8 py-10 bg-gray-100 rounded-t-xl flex justify-center gap-3">
   <ThirdCutSwitch 
