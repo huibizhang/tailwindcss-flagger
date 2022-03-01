@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-flagger",
   "description": "advanced peer variant",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "flagger.js",
   "engines": {
     "node": ">=12.13.0"
